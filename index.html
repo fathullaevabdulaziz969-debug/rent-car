@@ -1,0 +1,384 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TashkentCity Rentcar — Прокат автомобилей в Ташкенте</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header-top">
+        <div class="logo-container">
+            <a href="#" class="logo">TashkentCity<span>Rentcar</span></a>
+            <span class="logo-subtitle">прокат автомобилей</span>
+        </div>
+
+        <div class="header-info">
+            <div class="info-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#d4af37"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>пр. Амира Тимура 15</span>
+            </div>
+            <div class="info-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#d4af37"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                <span>9:00 - 18:00</span>
+            </div>
+            <div class="info-item phone-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#d4af37"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <a href="tel:+998971550555" class="phone-link">+998(97) 155-05-55</a>
+            </div>
+        </div>
+
+        <div class="controls">
+            <a href="tel:+998971550555" class="btn-call-outline">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                Позвонить
+            </a>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Прокат автомобилей <br>в <span>Ташкенте</span></h1>
+            <p>Широкий выбор автомобилей — от эконом до премиум класса. Быстрое оформление за 10 минут. Круглосуточная тех. поддержка 24/7</p>
+            <a href="#fleet" class="btn-gold">Смотреть автопарк</a>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="features">
+        <div class="feature-card">
+            <div class="f-icon">🚗</div>
+            <h3>Новые авто</h3>
+            <p>Модели 2022-2024 годов выпуска</p>
+        </div>
+        <div class="feature-card">
+            <div class="f-icon">🛡</div>
+            <h3>Страховка</h3>
+            <p>КАСКО и ОСАГО включены в цену</p>
+        </div>
+        <div class="feature-card">
+            <div class="f-icon">📦</div>
+            <h3>Без залога</h3>
+            <p>Только паспорт и водительские права</p>
+        </div>
+        <div class="feature-card">
+            <div class="f-icon">🚀</div>
+            <h3>Подача 24/7</h3>
+            <p>Встретим в аэропорту или на вокзале</p>
+        </div>
+    </section>
+
+    <!-- Каталог карточек -->
+    <section id="fleet" class="fleet-section">
+        <h2 class="section-title">Наш <span>автопарк</span></h2>
+        <div class="cars-grid">
+ <!-- 1 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://rentcar.uz/_next/image?url=https%3A%2F%2Fapi.rentcar.uz%2F1801%2Fjpeg-optimizer_1-(16).jpeg&w=1080&q=75" alt="Chevrolet Spark"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Spark</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>6 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">350 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://rentcar.uz/_next/image?url=https%3A%2F%2Fapi.rentcar.uz%2F1215%2Fjpeg-optimizer_JAM00877.jpeg&w=1080&q=75" alt="Chevrolet Cobalt"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Cobalt</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>7 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">450 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://kluz-photos-tasinha.kcdn.online/kluz-content/b49d788e-38c8-45ef-9ad1-5475a421647f-960x540.jpg" alt="Chevrolet Lacetti"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Lacetti</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>9 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">470 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://wroom.ru/i/cars2/chevrolet_onix_2.jpg" alt="Chevrolet Onix"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Onix LTZ TURBO AT</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>8 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">500 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://tengrinews.kz/userdata/opinion/2024/opinion_1226/thumb_m/photo_1174.jpeg" alt="Chevrolet Monza"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Monza</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>8 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">550 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://www.spot.uz/media/img/2020/12/YHm0NJ16081090028564_l.jpg" alt="Chevrolet Tracker"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Tracker</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>7 л / 100 км</span> • <span>Бензин</span></div>
+<div class="car-price-container">
+                        <div class="car-price">650 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://getmecar.ru/wp-content/uploads/2023/11/23-1-9.png" alt="Chevrolet Malibu 2"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Malibu 2</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>8.5 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 200 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://autoreport.kz/img/articles/95752e54a909ee88eea2e9885ac6f524.jpg" alt="Chevrolet Equinox"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Equinox</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>9 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 200 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://orientrentcar.uz/wp-content/uploads/2024/10/1-2-5.jpg" alt="Chevrolet Traverse"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Traverse</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>11 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 500 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://rentcar.uz/_next/image?url=https%3A%2F%2Fapi.rentcar.uz%2F1740%2FJAM01495.jpg&w=1080&q=75" alt="Toyota Prado 120"></div>
+                <div class="car-info">
+                    <div class="car-title">Toyota Prado 120</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>15 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">750 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://rentcar.uz/_next/image?url=https%3A%2F%2Fapi.rentcar.uz%2Fimg%2Fcars%2F1502%2Fjpeg-optimizer_JAM00507.jpeg&w=1080&q=75" alt="Toyota Prado 150"></div>
+                <div class="car-info">
+                    <div class="car-title">Toyota Prado 150</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>15 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 100 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://i.ytimg.com/vi/ONPP6oVm5Hc/maxresdefault.jpg" alt="Toyota Land Cruiser 150"></div>
+ <div class="car-info">
+                    <div class="car-title">Toyota LC Prado 150 4.0</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>15 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 600 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 13 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://storage.kun.uz/source/10/ApaORK7gfWpOwnzWwNZ0cImAmDTvW_o4.jpg" alt="Kia Sonet"></div>
+                <div class="car-info">
+                    <div class="car-title">Kia Sonet</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>8 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">700 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 14 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://files-api.itpoint.uz/orient-motors/images/original/y6iaiu82uwr-photo_2025-07-25_13-17-01.jpg" alt="Byd Chazor"></div>
+                <div class="car-info">
+                    <div class="car-title">BYD Chazor</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>4 л / 100 км</span> • <span>Гибрид</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 000 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 15 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://orientrentcar.uz/wp-content/uploads/2023/12/3-es.jpg" alt="Chevrolet Equinox"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Equinox</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>12 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 200 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 16 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://a1.drive-data.ru/WizQe_cK0s8Fbe-Q2Ofdu67SY74-1920.jpg" alt="Kia K5"></div>
+                <div class="car-info">
+                    <div class="car-title">Kia K5</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>8 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 200 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 17 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://www.auto-in-china.com/wp-content/uploads/2025/08/2025-Li-auto-L9-Ultra-Smart-Refresh-Edition-grey.webp" alt="Lixiang L9 Ultra"></div>
+                <div class="car-info">
+                    <div class="car-title">Lixiang L9 Ultra</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>5 л / 100 км</span> • <span>Гибрид</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">3 000 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 18 -->
+ <div class="car-card">
+                <div class="car-image"><img src="https://arendacar.ru/wp-content/uploads/2025/04/ee3c5b004918666f8d0f6b7d518750b6-e1743784082686.jpg" alt="Toyota Land Cruiser 200"></div>
+                <div class="car-info">
+                    <div class="car-title">Toyota Land Cruiser 200</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>15 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">2 000 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 19 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://www.gazeta.uz/media/img/2023/11/jJIbrA16998676017889_l.jpg" alt="Kia Carnival"></div>
+                <div class="car-info">
+                    <div class="car-title">Kia Carnival G031</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>9 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 700 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 20 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://rentcar.uz/_next/image?url=https%3A%2F%2Frentcar.uz%2Fimg%2Fcars%2F1978%2Ftraiblazer-(2).png&w=1080&q=75" alt="Chevrolet Traiblaizer"></div>
+                <div class="car-info">
+                    <div class="car-title">Chevrolet Traiblaizer LTZ</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>12 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 200 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 21 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://repost.uz/storage/uploads/6985-1661236543-avto11-post-material.webp" alt="Toyota Land Cruiser 300"></div>
+                <div class="car-info">
+                    <div class="car-title">Toyota Land Cruiser 300</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>20 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">3 000 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 22 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://i.ytimg.com/vi/kpVLyttd5uU/sddefault.jpg" alt="Gmc Savana"></div>
+                <div class="car-info">
+                    <div class="car-title">GMC Savana</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>14 л / 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">1 300 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 23 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://mercedes-tashkent.uz/sites/default/files/available-cars/11.png" alt="Mercedes-Benz E-Class"></div>
+                <div class="car-info">
+                    <div class="car-title">Mercedes-Benz E-Class</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>8.5 л / 100 км</span> • <span>Бензин</span></div>
+ <div class="car-price-container">
+                        <div class="car-price">2 800 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 24 -->
+            <div class="car-card">
+                <div class="car-image"><img src="https://frankfurt.apollo.olxcdn.com/v1/files/ckrt3er3lclm3-UZ/image;s=1000x700" alt="Mersedes Benz G-Class"></div>
+                <div class="car-info">
+                    <div class="car-title">Mercedes-Benz G-Class</div>
+                    <div class="car-specs"><span>Автомат</span> • <span>15 л/ 100 км</span> • <span>Бензин</span></div>
+                    <div class="car-price-container">
+                        <div class="car-price">7 000 000 <span>UZS / день</span></div>
+                        <button class="btn-book">Заказать</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- Подвал -->
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="logo">rent<span>car.uz</span></a>
+            <p>Аренда автомобилей в Ташкенте и по всему Узбекистану</p>
+            <div class="footer-contacts">
+                <a href="tel:+998971550555">+998(97) 155-05-55</a>
+                <a href="#">Пр. Амира Тимура 15</a>
+            </div>
+            <div class="copyright">&copy; 2024 RentCar.uz. Все права защищены.</div>
+        </div>
+    </footer>
+
+</body>
+</html>
